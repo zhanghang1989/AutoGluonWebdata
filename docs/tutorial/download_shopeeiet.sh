@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-mkdir ~/data
-mkdir ~/data/shopeeiet
-cd ~/data/shopeeiet/
+mkdir ./data
+mkdir ./data/shopeeiet
+cd ./data/shopeeiet/
 kaggle competitions download -c shopee-iet-machine-learning-competition
 unzip Training%20Images.zip
 unzip Test%20Images.zip
